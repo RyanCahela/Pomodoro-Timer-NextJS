@@ -1,8 +1,12 @@
+@use "../abstract/colors" as *;
+
 :root {
   /* COLORS */
-  --fc-100: $gray-200;
-  --fc-900: $blue-600;
-  --fc-500: rgb($blue-600, 0.4);
+  --fc-100: #{$gray-200};
+  --fc-900: #{$blue-600};
+  --fc-500: #{rgb($blue-600, 0.4)};
+
+  --body-bg-color: #{$red-500};
 
   /* TYPOGRAPHY UTILITES */
   --fw-bold: 700;
