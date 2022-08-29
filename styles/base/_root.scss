@@ -1,2 +1,15 @@
 :root {
+  /* COLORS */
+  --fc-100: $gray-200;
+  --fc-900: $blue-600;
+  --fc-500: rgb($blue-600, 0.4);
+
+  /* TYPOGRAPHY UTILITES */
+  --fw-bold: 700;
+
+  /* TYPOGRAPHY COMPONENTS */
+  --title-line-height: 1.2;
+  --title-font-weight: var(--fw-bold);
+  --body-font-weight: var(--fw-bold);
+  --body-line-height: 1.2;
 }
